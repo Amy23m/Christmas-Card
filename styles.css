@@ -1,0 +1,68 @@
+body{
+   background-color: rgb(217, 241, 250);
+   font-family: "Mountains of Christmas", serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 4rem;
+   color: red;
+   position: absolute;
+   top: 25px;
+   left: 30rem;
+}
+
+.top-tree{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 250px solid green;
+}
+
+.middle-tree{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    top: -60px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 250px solid green;
+}
+
+.bottom-tree{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    top: -120px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 250px solid green;
+}
+
+.tree-trunk{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    height: 100px;
+    width: 50px;
+    top: -7.5rem;
+  background-color: rgb(129, 56, 0);
+}
+
+
+button{
+    position: relative;
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    left: 22rem;
+}
